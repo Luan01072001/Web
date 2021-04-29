@@ -1,0 +1,477 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading{
+        transform: translate(-30%,-50%);
+    }
+    .container-1 input#search{
+        margin-left: 14cm;
+    }
+    .btn7{
+        margin-left: 0.71cm;
+    }
+    .about-vidieo vidieo{
+        width: 60%;
+    }
+    .AN1 ,.AN2 ,.AN3 ,.AN4{
+        width: 200px;
+    }
+    .AN5,.AN6,.AN7,.AN8,.AN9,.AN10,.AN11,.AN12{
+        width: 155px;
+    }
+    .AN13,.AN14,.AN15,.AN16,.AN17,.AN18,.AN19,.AN20,.AN21,.AN22,.AN23,.AN24,.AN25,.AN26,.AN27,.AN28,.AN29,.AN30{
+       width: 150px;
+       height: 150px;
+    }
+    .AN15,.AN21,.AN27{
+        margin-left: -0.5cm;
+    }
+    .AN14,.AN20,.AN26{
+       margin-left: -0.7cm;
+    }
+    .AN13,.AN25{
+        margin-left: -1cm;
+    }
+    .AN16,.AN22,.AN28{
+        margin-left: -0.005cm;
+    }   
+    .AN17,.AN23,.AN29{
+        margin-left: 0.2cm;
+    }
+    .AN18,.AN24,.AN30{
+       margin-left: 0.5cm;
+    }
+    .AN19{
+        margin-left: -1cm;
+    }
+    .btn5{
+        position: relative;
+        top: -3.6cm;
+    }
+    .btn1{
+        margin-top: 7cm;
+    }
+    .btn2{
+        margin-top:5cm ;
+    }
+    .btn3{
+        margin-top: 2cm;
+    }
+    .btn4{
+        margin-top: 5.1cm;
+    }
+    form{
+        margin-left: 30%;
+    }
+    textarea{
+        margin-left:10px;
+    }
+
+  
+}
+ 
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+    .Logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .menu{
+        margin-top: 40px;
+        margin-right: 15px;
+
+    }
+    .heading{
+        transform: translate(-20%,-60%);
+    }
+    .container-1 input#search{
+        margin-left: 11cm;
+        width:200px ;
+    }
+    .btn7{
+        margin-left: 0.71cm;
+    }
+    .menu li{
+        margin-right: 10px;
+    }
+    .AN1 ,.AN2 ,.AN3 ,.AN4{
+        width: 140px;
+    }
+    .vidieo-title{
+        font-size: 70%;
+    }
+    .audio-title{
+        font-size: 80%;
+        margin-left: -10%;
+    }
+    .AN5,.AN6,.AN7,.AN8,.AN9,.AN10,.AN11,.AN12{
+        width: 90%;
+    }
+    .title-AN{
+        font-size: 70%;
+    }
+     .btn1 , .btn2 ,.btn3,.btn4{
+         width: 70%;
+         font-size: 70%;
+     }
+     .btn5{
+        position: relative;
+        top: -4.25cm;
+    }
+    .btn1{
+        margin-top: 5.7cm;
+        margin-left: 15%;
+    }
+    .btn2{
+        margin-top: 3.7cm;
+        margin-left: 15%;
+    }
+    .btn3{
+        margin-top: -0.3cm;
+        margin-left: 15%;
+    }
+    .btn4{
+        margin-top: 3.2cm;
+        margin-left: 15%;
+    }
+    .social-icons li{
+        margin-left: 10px;
+    }
+    .thongtin i{
+        display: block;
+    }
+    .thongtin li{
+        font-size: 14px;
+    }
+    input[type=text], input[type=email], textarea{
+        font-size: 55%;
+        font-weight: 900;
+    }
+    label{
+        font-size: 80%;
+    }
+    .btn6{
+        margin-left: -10%;
+    }
+    .AN13,.AN14,.AN15,.AN16,.AN17,.AN18,.AN19,.AN20,.AN21,.AN22,.AN23,.AN24,.AN25,.AN26,.AN27,.AN28,.AN29,.AN30{
+        width: 110px;
+        height: 110px;
+    }
+
+    
+
+     
+    
+     
+}
+ 
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .col{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu li a{
+        color: black;
+    }
+    .menu li{
+        margin-left: 10px;
+    }
+    .Logo{
+        width: 350px;
+        margin-left: 25%;
+    }
+    .mobile-nav-icon{
+        display: block;
+    }
+    .heading{
+        word-spacing: 2px;
+        font-size: 200;
+        transform: translate(-10%,-60%);
+    }
+    .container-1 input#search{
+        margin-top: 9cm;
+        margin-left: 2cm;
+    }
+    .btn7{
+        margin-left: 0.71cm;
+        margin-top: 9cm;
+    }
+    .btn{
+        width: 10%;
+        margin-left: 30px;
+    }
+    .about-vidieo video{
+        width: 80%;
+    }
+    .about-vidieo{
+        text-align: center;
+    }
+    .AN1,.AN2,.AN3,.AN4{
+        width: 80%;
+    }
+    .about-vidieo1{
+        text-align: center;
+    }
+    .music-section{
+        text-align: center;
+        position: relative;
+    }
+    .AN13,.AN14,.AN15,.AN16,.AN17,.AN18,.AN19,.AN20,.AN21,.AN22,.AN23,.AN24,.AN25,.AN26,.AN27,.AN28,.AN29,.AN30{
+        width: 190px;
+        height: 190px;
+    }
+    .AN13,.AN14,.AN15,.AN16,.AN17,.AN18{
+        margin-left: -60%;
+    }
+    .AN14,.AN15,.AN16,.AN17,.AN18{
+        margin-top: 10px;
+    }
+    .AN19,.AN20,.AN21,.AN22,.AN23,.AN24{
+        position: absolute;
+        top: 5cm;
+    }
+    .AN24{
+        position: absolute;
+        top: 34.5cm;
+    }
+    .AN23{
+        position: absolute;
+        top: 29cm;
+        margin-left: 20px;
+    }
+    .AN22{
+        position: absolute;
+        top: 23.45cm;
+        margin-left: 20px;
+    }
+    .AN21{
+        position: absolute;
+        top: 17.7cm;
+        margin-left: 20px;
+    }
+    .AN20{
+        position: absolute;
+        top: 12.2cm;
+        margin-left: 20px;
+    }
+    .AN19{
+        position: absolute;
+        top: 6.45cm;
+        margin-left: 20px;
+    }
+    .AN25{
+        margin-left: -60%;
+        margin-top: -30px;
+    }
+    .AN26{
+        margin-left: -60%;
+        margin-top: 10px;
+    }
+    .AN27{
+        margin-left: -60%;
+        margin-top: 10px;
+    }
+    .AN28{
+        position: absolute;
+        top: 40.3cm;
+        margin-left: 20px;
+    }
+    .AN29{
+        position: absolute;
+        top: 46cm;
+        margin-left: 20px;
+    }
+    .AN30{
+        position: absolute;
+        top: 51.55cm;
+        margin-left: 20px;
+    }
+    .premium-box{
+        margin-left: 20%;
+        width: 70%;
+    }
+    .premium-box ul li{
+        margin-left: 10%;
+    }
+    .btn5{
+        margin-top: 0.8cm;
+    }
+    .nghesinotbat-section .row .col{
+        margin-bottom: 50px;
+    }
+    figcaption{
+        font-size: 90%;
+    }
+    .img-artist{
+        width: 80px;
+    }
+    .premium-box{
+        margin-top: 10px;
+    }
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .btn6{
+        margin-left: 2%;
+    }
+    input[type=text], input[type=email], textarea{
+        font-size: 75%;
+        font-weight: 900;
+    }
+    .thongtin{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .thongtin li{
+        font-size: 17px;
+    }
+    .social-icons{
+        text-align: center;
+    }
+    .sticky .menu li a{
+        color: white;
+    }
+    .sticky .menu li{
+        margin-left: 10px;
+    }
+
+    
+    
+
+}
+@media only screen and (max-width: 570px){
+    .mobile-nav-icon{
+        right: 50px;
+    }
+}
+ 
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+    .heading .btn{
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 8%;
+    }
+    h1{
+        font-size: 150%;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+        transform: translate(5%,1%);
+    }
+    .Logo{
+        width: 200px;
+        margin-top:-2%;
+    }
+    .container-1 input#search{
+        margin-top: 9.3cm;
+        margin-left: 1.6cm;
+    }
+    .menu li{
+        margin-left: 20px;
+    }
+    .btn7{
+        margin-left: 0.71cm;
+        margin-top: 9.3cm;
+    }
+    .small-icons{
+        margin-top: 15px;
+    }
+    .AN13,.AN14,.AN15,.AN16,.AN17,.AN18,.AN19,.AN20,.AN21,.AN22,.AN23,.AN24,.AN25,.AN26,.AN27,.AN28,.AN29,.AN30{
+        width: 150px;
+        height: 150px;
+    }
+    .AN25{
+        margin-top: 10px;
+    }
+    .AN24{
+        position: absolute;
+        top: 27.71cm;
+    }
+    .AN23{
+        position: absolute;
+        top: 23.45cm;
+        margin-left: 20px;
+    }
+    .AN22{
+        position: absolute;
+        top: 19.15cm;
+        margin-left: 20px;
+    }
+    .AN21{
+        position: absolute;
+        top: 14.8cm;
+        margin-left: 20px;
+    }
+    .AN20{
+        position: absolute;
+        top: 10.45cm;
+        margin-left: 20px;
+    }
+    .AN19{
+        position: absolute;
+        top: 6.15cm;
+        margin-left: 20px;
+    }
+    .AN28{
+        position: absolute;
+        top: 32.05cm;
+        margin-left: 20px;
+    }
+    .AN29{
+        position: absolute;
+        top: 36.4cm;
+        margin-left: 20px;
+    }
+    .AN30{
+        position: absolute;
+        top: 40.7cm;
+        margin-left: 20px;
+    }
+    .premium-box{
+        width: 80%;
+        height: 460px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .btn1{
+        margin-top: 3.5cm;
+    }
+    .btn2{
+        margin-top: 2cm;
+    }
+    .btn4{
+        margin-top: 2cm;
+    }
+    .btn5{
+        visibility: hidden;
+    }
+    .thongtin li{
+        font-size: 14px;
+    }
+    textarea{
+        margin-left: 7%;
+    }
+    .btn6{
+        margin-left: -10%;
+    }
+    .mobile-nav-icon{
+        right: 50px;
+        top: 80px;
+    }
+    .sticky .menu li{
+        margin-left: 20px;
+    }
+
+
+ 
+}

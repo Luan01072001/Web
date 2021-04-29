@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+body{
+    overflow-x: hidden;
+}
+.Logo{
+    max-width: 6cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 110%;
+    font-weight: 700;
+}
+.heading{
+    position: absolute;
+    top: 26%;
+    left: 46%;
+    transform: translate(-10%, -10%);
+    width: 1140px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color:#5680E9 ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin: 20px 50px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    font-size: 80%;
+}
+.btn:hover,
+.btn:active{
+    background-color:blue;
+    transform: scale(1.02);
+}
+.TT1 , .TT3{
+    color: black;
+    font-size: 60%;
+    text-align: center;
+    margin-left: -70%;
+}
+.TT2 , .TT4{
+    color: blue;
+    text-align: center;
+}
+.TT3:after{
+    content:"";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background-color: #5680E9;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+form{
+    display: block;
+    margin-top: 5cm;
+}
+.Email , .Email3 ,.mk,.ten,.ngaysinh,.gioitinh1{
+    color: black;
+    padding-bottom: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.Email2 ,.Email5 ,.mk2,.ten2{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    resize: none;
+    padding-top: 14px ;
+    padding-left: 14px;
+}
+ select{
+   color: black;
+    padding-bottom: 22px;
+    width: 200px;
+    padding-top: 14px ;
+    padding-left: 14px;
+    border-radius: 4px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+ .ngaysinh2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
+    resize: none;
+    padding-top: 14px ;
+    padding-left: 14px;
+    margin-left:320px;
+ }
+ .ngaysinh3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    margin-top: 11.5px;
+    border-radius: 4px;
+    resize: none;
+    padding-top: 14px ;
+    padding-left: 14px;
+    margin-left: 32px;
+ }
+.gioitinh2{
+     display: flex;
+     flex-wrap: wrap;
+}
+.gioitinh5{
+    display: flex;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+fieldset{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    font-weight: 500;
+    padding-top: 14px ;
+    padding-left: 14px;
+}
+.gioitinh3{
+    margin-top: -30px;
+    margin-left: 140px;
+}
+.gioitinh6{
+    margin-top: -30px;
+    margin-left: 1.3cm;
+}
+.gioitinh9{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn1{
+    text-decoration: none;
+    color: white;
+    background-color:#5680E9 ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin: 20px 50px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    font-size: 80%;
+}
+.btn1:hover,
+.btn1:active{
+    background-color:blue;
+    transform: scale(1.02);
+}
+.TT5 , .TT7{
+    color: black;
+    font-size: 60%;
+    text-align: center;
+    margin-top: 30px;
+}
+.TT6 , .TT8{
+    color: blue;
+    text-align: center;
+}
+.TT9{
+    font-weight: 700;
+    text-align: center;
+}
+.btn2{
+    text-decoration: none;
+    color: white;
+    background-color:black ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin: 20px 50px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    font-size: 80%;
+}
+.btn2:hover,
+.btn2:active{
+    background-color:rgba(0, 0, 0, 0.288);
+    transform: scale(1.02);
+}
+/**nút chọn /*/
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    transition: all 0.25s;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #5680E9;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}

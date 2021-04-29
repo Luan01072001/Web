@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+body{
+    overflow-x: hidden;
+}
+.Logo{
+    max-width: 6cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 110%;
+    font-weight: 700;
+}
+.heading{
+    position: absolute;
+    top: 26%;
+    left: 49.5%;
+    transform: translate(-10%, -10%);
+    width: 1140px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color:#5680E9 ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    width: 300px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    margin-top: 1cm;
+    margin-left: -0.6cm;
+    text-align: center;
+    font-size: 80%;
+    
+}
+.btn:hover,
+.btn:active{
+    background-color:blue;
+    transform: scale(1.02);
+}
+hr{
+    content:"";
+    display: block;
+    width: 600px;
+    height: 2px;
+    background-color:blue;
+    margin: 0 auto;
+}
+.gach1{
+    content:"";
+    display: block;
+    width: 600px;
+    height: 2px;
+    background-color:blue;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.btn1{
+    text-decoration: none;
+    color: white;
+    background-color:black ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    width: 300px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    margin-top: 0.5cm;
+    margin-left: -0.6cm;
+    text-align: center;
+    font-size: 80%;
+}
+.btn4{
+    text-decoration: none;
+    color: white;
+    background-color:black ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    width: 300px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    margin-top: 0.5cm;
+    margin-left: -0.6cm;
+    text-align: center;
+    font-size: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: -0.2cm;
+}
+.btn1:hover,
+.btn1:active{
+    background-color:rgba(0, 0, 0, 0.459);
+    transform: scale(1.02);
+}
+.btn4:hover,
+.btn4:active{
+    background-color:rgba(0, 0, 0, 0.459);
+    transform: scale(1.02);
+}
+.btn2{
+    text-decoration: none;
+    color: black;
+    background-color:white ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    width: 300px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    margin-top: 0.5cm;
+    margin-left: -0.6cm;
+    text-align: center;
+    border: solid 2px black;
+    font-size: 80%;
+    
+}
+.btn2:hover,
+.btn2:active{
+    background-color:rgba(0, 0, 0, 0.171);
+    transform: scale(1.02);
+}
+form{
+    display: block;
+    margin-top: 7cm;
+}
+.Email , .mk,.TT1{
+    color: black;
+    padding-bottom: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.Email2 ,.mk2{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    resize: none;
+    padding-top: 14px ;
+    padding-left: 14px;
+}
+.dk{
+    color: black;
+    padding-bottom: 24px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.1s;
+}
+.dk:hover,
+.dk:active{
+    color: #5680E9;
+}
+.btn3{
+    text-decoration: none;
+    color: white;
+    background-color:#5680E9 ;
+    padding: 15px 10px;
+    border-radius: 30px;
+    width: 300px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    margin-top: 1cm;
+    margin-left: -0.6cm;
+    text-align: center;
+    font-size: 80%;
+    margin-top: -0.2cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.btn3:hover,
+.btn3:active{
+    background-color:blue;
+    transform: scale(1.02);
+}
+.login{
+    text-align: center;
+}
+.TT1{
+    margin-top: 1cm;
+    font-weight: 900;
+}
