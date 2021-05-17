@@ -126,7 +126,7 @@ h1{
     text-align: center;
     border-radius: 1px;
     margin-top: 5.5cm;
-    margin-left: 0.76cm;
+    margin-left: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -165,8 +165,7 @@ h2::after{
 h2:hover,
 h2:active{
     color: rgb(2, 2, 82);
-    box-shadow:0px 5px 15px 5px black ;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .p-long{
@@ -312,7 +311,9 @@ section{
     margin-left: -20px;
 }
 .AN5,.AN6,.AN7,.AN8,.AN9,.AN10,.AN11,.AN12{
-    background-image:radial-gradient(#8860D0,#6e2e69,#5AB9EA,#84CEEB,#5680E9);
+    background: #FEAC5E;
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+
     width: 190px;
     height: 90px;
     border-radius: 0.7cm;
@@ -330,7 +331,8 @@ section{
     font-weight: 700;
 }
 .about-section{
-    margin-top: -40px;
+    margin-top: -13.5cm;
+    margin-left: 4cm;
 }
 /*...............Nghệ Sĩ Xuất Sắc P3...........*/
 .nghesinotbat-section{
@@ -378,7 +380,7 @@ cite{
     width: 200px;
     border-radius: 0.5cm;
     box-shadow:0px 5px 15px 5px #5680E9 ;
-    transition: all 0.2s;
+    transition: all 0.25s;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;   
 }
@@ -449,7 +451,7 @@ cite{
     width: 200px;
     border-radius: 0.5cm;
     box-shadow:0px 5px 15px 5px #8860D0;
-    transition: all 0.2s;
+    transition: all 0.25s;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;   
 }
@@ -522,7 +524,7 @@ cite{
     width: 200px;
     border-radius: 0.5cm;
     box-shadow:0px 5px 15px 5px #FF9999;
-    transition: all 0.2s;
+    transition: all 0.25s;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px; 
 }
@@ -637,6 +639,7 @@ figcaption{
     width: 90%;
     height: 660px;
     box-shadow: 3px 5px 10px #e0e0e0;
+    position: relative;
 }
 h3{
     text-transform: uppercase;
@@ -687,6 +690,7 @@ h3{
     transition: all 0.4s ease-in-out;
     font-weight: 700;
     margin-left: 20%;
+    font-size: 70%;
 }
 .btn1{
     margin-top: 6.15cm;
@@ -728,8 +732,8 @@ h3{
     text-align: center;
     font-weight: 700;
     font-size: 50%;
-    position: relative;
-    top: -4.18cm;
+    position: absolute;
+    top: 5px;
     left: -0.09cm;
 
 }
@@ -744,9 +748,14 @@ h3{
     list-style: none;
     color:#f4f4f4;
     line-height: 200%;
-    margin-top: 70px;
     word-spacing: 1px;
     font-size: 95%;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+.thongtin:hover,
+.thongtin:active{
+    color: black;
 }
 .thongtin .small-icon{
     color:#054666;
@@ -781,36 +790,49 @@ form{
     margin-left: 40%;
     width: 50%;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    position: relative;
 }
 label{
     font-size: 110%;
     color: white;
+    font-weight: 700;
 }
 input,textarea{
     outline: none;
     padding: 20px;
     background-color:#5680E9;
-    border: 1px solid #5680E9;
+    border: 1px solid white;
     border-radius: 10px;
     cursor: pointer;
 }
 textarea{
     resize: none;
-    height: 100px;
-}
-input{
-    height: 50px;
-
-}
-input[type=text], input[type=email], textarea{
-    width: 50%;
-    font-size: 90%;
+    margin-left: 40%;
+    margin-top: -10%;
+    width: 70%;
+    font-size: 60%;
     font-family: 'Noto Sans JP', sans-serif;
     transition: all 0.15s;
     color: black;
     background-color: white;
     font-weight: 500;
+}
+input{
+    height: 50px;
+
+}
+input[type=text], input[type=email]{
+    width: 70%;
+    font-size: 60%;
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: all 0.15s;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    position: absolute;
+    left: 35%;
+    width: 5.25cm;
 }  
 form .row:last-child{
     margin-left: 20%;
@@ -826,36 +848,37 @@ form .row{
     margin-bottom:20px ;
 }
 .lb1{
-    position: relative;
-    top: -2.2cm;
-}
-input{
-    position: relative;
-    left: 28px;
+    font-size: 110%;
+    color: white;
+    font-weight: 700;
 }
 .btn6{
     text-decoration: none;
-    color:white;
-    background-color: #5680E9;
-    padding: 5px 5px;
+    color: white;
+    background-color:#5680E9 ;
+    padding: 15px 10px;
     border-radius: 30px;
-    margin: 0 5px;
-    width: 100px;
+    width: 200px;
     display: inline-block;
     text-align: center;
+    transition: all 0.2s ease-in-out;
     font-weight: 700;
-    transition: all 0.4s ease-in-out;
-    font-weight: 900;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    font-size: 80%;
+    margin-left: 15%;
+    border: solid 2px #5680E9;
 
 }
 .btn6:hover,
 .btn6:active{
-    background-color: blue;
+    background-color:blue;
 }
 /*------------------FOOTER****************/
 footer{
     text-align: center;
-    background-color: #5680E9;
+    background-color: black;
     color: white;
     padding: 20px;
 }
@@ -867,7 +890,7 @@ footer{
     left: 0;
     z-index: 900;
     width: 100%;
-    height: 120px;
+    height: 85px;
 }
 .sticky .Logo{
     width: 180px;
@@ -880,13 +903,473 @@ footer{
 .sticky .mobile-nav-icon{
     top: 25px;
 }
-/********icon mobile******/
-.mobile-nav-icon{
-    font-size: 200%;
-    color: white;
-    position: absolute; 
-    top: 55px;
-    right: 100px;
+/************************toltip**************/
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
     visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 60%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+    font-weight: bold;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext1{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 30%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext1 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext2{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 17%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext2 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext3{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 15%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext3 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext4{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext4 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext5{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext5 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext6{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 60%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext6 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext7{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 30%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext7 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext8{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 17%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext8 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext9{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext9 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext10{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext10 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext11{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 8%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext11 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext12{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext12 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext13{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 20%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext13 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext14{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext14 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext15{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext15 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext16{
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext16 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.tooltip .tooltiptext17{
+    visibility: hidden;
+    width: 150px;
+    background-color: white;
+    color: #5680E9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 8%;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 80%;
+} 
+.tooltip:hover .tooltiptext17 {
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
 
+
+  
+  
+  
+  
+
+/*************menu thêm**********/
+.left{
+	width: 200px;
+	height: 500px;
+	background-color:#5680E9;
+	overflow-y: scroll;
+    position: relative;
+    top: 1.2cm;
+}
+.left ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.left::-webkit-scrollbar {
+	width: 10px;
+	background-color:#5680E9;
+}
+.left::-webkit-scrollbar-thumb {
+	background-color: lightgray;
+	border-radius: 4px;
+
+}
+.left ul li {
+	border-bottom: 2px solid white;
+	height: 70px;
+	line-height: 40px;
+	padding-left: 50px;
+    padding-top: 10px;
+}
+.left li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left li .ico{
+   color: white;
+   transition: all 0.2s;
+}
+.left li .ico:hover,
+.left li .ico:active{
+    color: black;
+}
+.left ul li:last-child{
+	border: none;
+}
+.left ul li:first-child{
+	border-top: none;
+}
+.luan{
+    margin-left: -3.2cm;
+}
+.p-long3{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left:3cm;
+    color: #8860D0;
+    line-height: 140%;
+    transition: all 0.5s;
+}
+.p-long3:hover,
+.p-long3:active{
+    color:black;
+}
+.left ul li a{
+    color: white;
+    transition: all 0.2s;
+}
+.left ul li a:hover,
+.left ul li a:active{
+    color: black;
 }

@@ -23,6 +23,13 @@ body{
     max-width: 1140px;
     margin: 0 auto;
 }
+.end-section{
+    width: 800px;
+    padding: 16px;
+    margin: 0 auto;
+    background-color: #eeefff;
+    box-shadow: 3px 5px 10px #e0e0e0;
+}
 h1{
     font-size: 110%;
     font-weight: 700;
@@ -55,13 +62,14 @@ h1{
     background-color:blue;
     transform: scale(1.02);
 }
-hr{
+.gach{
     content:"";
     display: block;
     width: 600px;
     height: 2px;
     background-color:blue;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 .gach1{
     content:"";
@@ -161,6 +169,7 @@ form{
     resize: none;
     padding-top: 14px ;
     padding-left: 14px;
+    border: solid 2px black;
 }
 .dk{
     color: black;
